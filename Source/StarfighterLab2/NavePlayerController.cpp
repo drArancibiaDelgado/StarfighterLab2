@@ -16,8 +16,8 @@ void ANavePlayerController::SetupInputComponent()
 	Super::SetupInputComponent();
 	EnableInput(this);
 
-
 	InputComponent->BindAxis("Move",this,&ANavePlayerController::Move);
+
 }
 
 void ANavePlayerController::BeginPlay()

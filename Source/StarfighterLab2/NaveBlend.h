@@ -23,6 +23,7 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UStaticMeshComponent* SM_Nave;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UFloatingPawnMovement* FloatingMovement;
 
